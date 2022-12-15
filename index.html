@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="RT">
+            RT
+        </div>
+
+        <div class="navbar">
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#aboutme">ABOUT ME</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contactme">CONTACT ME</a>
+            </nav>
+        </div>
+    </div>
+    <main>
+        <section class="section">
+            <div class="secdiv">
+                <h4>Hello,</h4>
+                <h1>I'm Roman Thapa</h1>
+                <h4>And i am a student <br>from Nepal. </h4>
+
+            </div>
+            <div class="secdiv1">
+                <img src="images/img-3.png" height="400" width="400">
+            </div>
+        </section>
+        <section id="aboutme">
+            <section class="header">
+                <header class="h">
+                    ABOUT
+                </header>
+                <h1>Personal Info</h1>
+                <h4>Get to know more about me</h4>
+            </section>
+            <section class="main">
+                <article class="article">
+                    <p><span>Hello!</span><br>
+                        I am Roman Thapa a high school student in accounting at
+                        Panchamunidev higher seconday school in Tanahun,Nepal.
+
+                        My aspiration to live the life which i am passionate and curious
+                        about lead me to the self learner developer. You will find me learning
+                        and developing things most of time although i am studing accounting
+                        currently.i am a dedicated student working toward the future where i
+                        can work in the field where i can explore more things about what i
+                        am passionate aboout i.e developing things and solving problems.</p>
+                </article>
+                <article class="skills">
+                    <header id="s">Skills</header>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                    </ul>
+                </article>
+            </section>
+        </section>
+        <section id="projects">
+            <header>Projects</header>
+            <h1>Latest Projects</h1>
+            <h4>Here you will find my latest projects </h4>
+            <div id="container">
+                <div class="griditems">
+                    this is first project
+                </div>
+                <div class="griditems">
+                    this is second project
+                </div>
+                <div class="griditems">
+                    this is third project
+                </div>
+                <div class="griditems">
+                    this is fourth project
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+<footer id="contactme">
+    <header>Contact</header>
+    <h1>Say Hello.</h1>
+    <h4>Get connected with me through email.</h4>
+    <div>
+        <form action="https://formspree.io/f/mjvlzewq" method="post" id="my-form">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Your name" name="name" required>
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Your email" name="email" required>
+            <label for="text"></label>
+            <textarea name="text" placeholder="Your message" id="text" cols="25" rows="8"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <script src="javascript.js"></script>
+    </div>
+    <div id="status"></div>
+</footer>
+
+</html>
